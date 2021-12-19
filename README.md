@@ -1,6 +1,6 @@
 # Getting Started with THE SPA QUEEN
 
-This project was bootstrapped with(https://github.com/mahamud751/Beauty-shop).
+This project was bootstrapped with(https://github.com/mahamud751/beauty-shop-client1).
 
 ## To carry , we look out for young energetic people with specialized skills in the areas specified. At the employees are enthusiastic, exuberant with life, and full of passion for learning and contributing to the structure. Working is like adding years of pride, a piece of heritage and experience to one's life.
 

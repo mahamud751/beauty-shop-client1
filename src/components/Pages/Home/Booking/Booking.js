@@ -32,14 +32,14 @@ const Booking = () => {
     const [products, setProducts] = useState([])
     const [success, setSuccess] = useState(false);
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://morning-brook-76931.herokuapp.com/products/${id}`)
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [id])
 
     const onSubmit = data => {
 
-        axios.post('http://localhost:5000/booking', data)
+        axios.post('https://morning-brook-76931.herokuapp.com/booking', data)
             .then(res => {
                 if (res.data.insertedId) {
                     setSuccess(true)

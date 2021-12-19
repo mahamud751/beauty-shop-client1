@@ -1,7 +1,4 @@
 import React from 'react';
-import video from '../../../../Motorcycle Cinematic Video.mp4'
-
-
 
 const DashboardMain = () => {
     return (

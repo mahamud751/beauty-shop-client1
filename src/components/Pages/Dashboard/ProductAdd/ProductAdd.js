@@ -20,7 +20,7 @@ const ProductAdd = () => {
     const { register, handleSubmit, reset } = useForm();
     const [success, setSuccess] = useState(false);
     const onSubmit = data => {
-        axios.post('http://localhost:5000/products', data)
+        axios.post('https://morning-brook-76931.herokuapp.com/products', data)
             .then(res => {
                 if (res.data.insertedId) {
                     setSuccess(true);

@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import axios from "axios";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -7,20 +8,30 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import DeleteIcon from '@mui/icons-material/Delete';
+import { useDispatch, useSelector } from "react-redux";
+import { setProducts } from "../../../../redux/actions/Action";
+
 
 
 const ManageOrders = () => {
-    const [products, setProducts] = useState([])
+    const products = useSelector((state) => state.allProducts.products);
+    const dispatch = useDispatch();
+    const fetchProducts = async () => {
+        const response = await axios
+            .get("https://morning-brook-76931.herokuapp.com/booking")
+            .catch((err) => {
+            });
+        dispatch(setProducts(response.data));
+    };
+
     useEffect(() => {
-        fetch('http://localhost:5000/booking')
-            .then(res => res.json())
-            .then(data => setProducts(data))
-    }, [])
+        fetchProducts();
+    }, []);
     const handleDlt = id => {
         const confirmation = window.confirm('Are you Sure?')
         if (confirmation) {
             console.log('yes')
-            const url = `http://localhost:5000/booking/${id}`
+            const url = `https://morning-brook-76931.herokuapp.com/booking/${id}`
             console.log(url)
             fetch(url, {
                 method: 'DELETE'

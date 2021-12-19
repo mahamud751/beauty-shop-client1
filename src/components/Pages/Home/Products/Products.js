@@ -10,9 +10,8 @@ const Product = () => {
     const dispatch = useDispatch();
     const fetchProducts = async () => {
         const response = await axios
-            .get("http://localhost:5000/products")
+            .get("https://morning-brook-76931.herokuapp.com/products")
             .catch((err) => {
-                console.log("Err: ", err);
             });
         dispatch(setProducts(response.data.slice(0, 6)));
     };
@@ -21,7 +20,6 @@ const Product = () => {
         fetchProducts();
     }, []);
 
-    console.log("Products :", products);
     return (
         <>
             <Container className="mt-5">

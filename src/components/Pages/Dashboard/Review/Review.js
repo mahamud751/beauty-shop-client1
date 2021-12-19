@@ -25,7 +25,7 @@ const Review = () => {
     const { user } = useAuth()
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        axios.post('http://localhost:5000/review', data)
+        axios.post('https://morning-brook-76931.herokuapp.com/review', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('success')

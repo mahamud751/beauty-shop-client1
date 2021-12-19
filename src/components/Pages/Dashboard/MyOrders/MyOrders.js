@@ -14,7 +14,7 @@ const MyOrders = () => {
     const { user } = useAuth()
 
     useEffect(() => {
-        const url = `http://localhost:5000/myBooking/?email=${user.email}`
+        const url = `https://morning-brook-76931.herokuapp.com/myBooking/?email=${user.email}`
         fetch(url)
             .then(res => res.json())
             .then(data => setBooking(data))
@@ -23,7 +23,7 @@ const MyOrders = () => {
         const confirmation = window.confirm('Are you Sure?')
         if (confirmation) {
             console.log('yes')
-            const url = `http://localhost:5000/myBooking/${id}`
+            const url = `https://morning-brook-76931.herokuapp.com/myBooking/${id}`
             console.log(url)
             fetch(url, {
                 method: 'DELETE'

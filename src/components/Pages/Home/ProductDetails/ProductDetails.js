@@ -14,7 +14,7 @@ const ProductDetails = () => {
   const dispatch = useDispatch();
   const fetchProductDetail = async (id) => {
     const response = await axios
-      .get(`http://localhost:5000/products/${id}`)
+      .get(`https://morning-brook-76931.herokuapp.com/products/${id}`)
       .catch((err) => {
         console.log("Err: ", err);
       });

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Olay",
+        "description": "Favorite Regenerist Face Cream moisturizes better than some luxury competitors twelve times the price. The line relies on proven active ingredients like peptides, hyaluronic acid, and niacinamide to make skin look visibly younger at drugstore prices.",
+        "price": "20.00",
+        "img": "https://i.ibb.co/qdDybvn/image-3-33532a6f-4779-43b0-95a1-1c464634675c-340x455.png"
+    },
+    {
+        "name": "EXOTIC FRUITS",
+        "description": "EXOTIC FRUITS roots go back to 1931, when Professor Paul Niehans began treating patients using cellular therapy in the Swiss countryside. Today, the brand expands on his groundbreaking scientific work to create anti-aging products that straddle the line between cosmeceutical and luxury skincare—just look at the line-plumping cream dubbed Absolute Filler.",
+        "price": "364.00",
+        "img": "https://i.ibb.co/PYyj4Bq/14-500x-crop-center.png"
+    },
+    {
+        "name": "CLINIQUE Dramatically Different Moisturizing Lotion+",
+        "description": "Perhaps the only moisturizer ubiquitous enough to be recognized by it's shorthand nickname DDML, Clinique's pale yellow cream is touted as one of the best skincare products of all time.",
+        "price": "44.00",
+        "img": "https://i.ibb.co/j83HvNg/tatcha-dewy-cream.png"
+    },
+    {
+        "name": "Olay Regenerist Micro-Sculpting Cream Face Moisturizer",
+        "description": "Olay's efficacy crosses generations and country lines—it's one of the most recognizable and accessible names in the global skincare game. In fact, industry testing has suggested that their cult-favorite Regenerist",
+        "price": "17.00",
+        "img": "https://i.ibb.co/SdfFK90/1585608057-1523412460-olay-regenerist-micro-sculpting-cream-face-moisturizer-1-7-oz-packagi-06-15234.png"
+    },
+    {
+        "name": "Dr. Barbara Sturm Face Cream Rich",
+        "description": "If you've watched just one celebrity skincare video (pick any one), you've no doubt heard about Dr. Barbara Sturm's products. Simple yet luxurious, Sturm's creams, serums, and cleansers all aim to strengthen and soothe skin while delivering serious results.",
+        "price": "230.00",
+        "img": "https://i.ibb.co/GQyjZV3/1612891057-screen-shot-2021-02-09-at-12-17-17-pm-1612891045.png"
+    },
+    {
+        "name": "TATCHA Luminous Dewy Skin Night Concentrate",
+        "description": "If glowy, dewy skin is what you're after—let us introduce you to the Japanese-and-American brand Tatcha. Inspired by the beauty secrets of geishas, Tatcha's line of cleansers, creams, and serums is centered around three ingredients: green tea, rice, and algae.",
+        "price": "110.00",
+        "img": "https://i.ibb.co/hFxn8KV/1523412556-s1778851-main-hero-1500.png"
+    },
+    {
+        "name": "DRUNK ELEPHANT T.L.C. Sukari Babyfacial",
+        "description": "The name of this brand makes a whole lot more sense once you learn that every product is centered around marula oil. (You see, Elephants eat the marula fruit and get tipsy in the wild).",
+        "price": "80.00",
+        "img": "https://i.ibb.co/L8SkcrT/1523411699-image-1-1523411689.png"
+    },
+    {
+        "name": "OLEHENRIKSEN Truth Serum",
+        "description": "Nobody does glowy, bright skin quite like Ole Henriksen. The hero products—like Truth Serum rely on active ingredients like vitamin c and collagen to lift dark spots and plump skin. Results are often instant and only get better over time.",
+        "price": "50.00",
+        "img": "https://i.ibb.co/djFxrv4/1523411186-s1910470-main-zoom.png"
+    },
+    {
+        "name": "Herbivore Blue Tansy Fruit Enzyme Resurfacing Clarity Mask",
+        "description": "With their jewel-box color palette, shelfie-ready packaging, and—most importantly—arsenal of natural ingredients like anti-inflammatory Blue Tansy and nourishing cannabis seed oil, ",
+        "price": "48.00",
+        "img": "https://i.ibb.co/8dVwHdV/1576724033-bluetansy-2048x2048-1576724018.png"
+    },
+    {
+        "name": "SkinCeuticals C E Ferulic",
+        "description": "One of the leaders in antioxidant-based skincare, the brand’s science-first philosophy makes it one of the most trusted brands by dermatologists. Their serums are potent (and pricey), but ultra-effective. ",
+        "price": "166.00",
+        "img": "https://i.ibb.co/RY57j03/1576723928-5230.png"
+    },
+    {
+        "name": "Versed Dew Point Moisturizing Gel-Cream",
+        "description": "Versed is proof that when it comes to skin care, better-for-you doesn’t have to be expensive. Their cruelty-free, vegan, and clean ingredients have become beauty-editor favorites—namely the Hydration Station Booster with Hyaluronic Acid.",
+        "price": "15.00",
+        "img": "https://i.ibb.co/4RT7znS/1612819400-screen-shot-2021-02-08-at-4-12-03-pm-1612818735.png"
+    },
+    {
+        "name": "Caudalie Vinoperfect Brightening Glycolic Overnight Cream",
+        "description": "Caudalie is a French skincare brand that relies on all-natural grape extracts from the regions of Bordeaux, Champagne, and Burgundy. Red wine drinkers already know this to be true: grapes are high in antioxidants and compounds resveratrol and polyphenols, which give the entire line its unique and effective anti-aging philosophy",
+        "price": "65.00",
+        "img": "https://i.ibb.co/ZJsk53k/1576723543-caudelie-1576723532.png"
+    }
+]
